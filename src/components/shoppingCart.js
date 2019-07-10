@@ -13,7 +13,7 @@ function  ShoppingCart({items, removeItemFromCart}) {
     return (
         <div>
             <h1>Shopping Cart</h1>
-            <h4>Cart total: {sum} </h4>
+            <h4>Cart total:$ {sum}.00 USD </h4>
             {items.length > 0 && itemList}
         </div>
     )

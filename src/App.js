@@ -77,7 +77,7 @@ class App extends React.Component {
     const cartItems = this.state.books.filter(book => book.inCart === true);
     const displayBooks = this.state.books.filter(book => book.title.toUpperCase().includes(this.state.navBarTxt.toUpperCase()) || book.author.toUpperCase().includes(this.state.navBarTxt.toUpperCase()) === true );
     return (
-        <div className='container-fluid p-0'>
+        <div className='container-fluid p-0 '>
           <nav className="navbar navbar-light bg-light">
             <a className="navbar-brand" href="#">Some BookShop</a>
             <div className="float-right mr-5">
